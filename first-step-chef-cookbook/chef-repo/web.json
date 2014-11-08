@@ -1,0 +1,5 @@
+{
+  "mysql" : {"server_root_password": "simple", "server_debian_password": "simple", "server_repl_password": "simple"},
+  "phpapp": {"db_password": "simple"},
+  "run_list": ["recipe[apt]", "recipe[phpapp]" ]
+}
